@@ -158,10 +158,15 @@ h2{
         padding:30px;
         margin:15px 0; 
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     &__icon{
-        display:block; margin:auto;
+        display:block; 
+        // margin:auto;
         width:50px; margin-bottom:20px;
         fill: #007932;
     }
@@ -599,7 +604,46 @@ h2{
         }
     }
 
+    .newsletter{
+        padding:20px;
+    }
+
+    .contact-form{
+        padding:20px;
+    }
+
     .wa-button{
         bottom:20px; right:20px;
     }
 }
+
+@media only screen and (max-width:640px){
+    .form{
+
+        form{width: 100%;}
+        &__input{
+            width:100%;
+        }
+    }
+
+    .service{
+        &__block{
+            padding:10px;
+        }
+    }
+
+    .founder{
+        width:100%;
+    }
+
+    .feedback{
+        &__block{
+            padding:20px;
+        }
+
+        &__text{
+            text-align: left;
+        }
+    }
+}
+
