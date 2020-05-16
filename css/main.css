@@ -733,6 +733,12 @@ h2 {
   padding: 10px 0;
   list-style-type: none;
 }
+.why-section .cell.large-4 > [class*=why-section] {
+  border-right: 1px solid #bdbdbd;
+}
+.why-section .cell.large-4:last-child [class*=why-section] {
+  border: none;
+}
 
 .services {
   background-color: #ecf5fa;
@@ -1088,7 +1094,7 @@ h2 {
   width: 40px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   .grid-container {
     padding: 0 20px;
   }
@@ -1151,6 +1157,9 @@ h2 {
   }
   .why-section__logo-container {
     display: none;
+  }
+  .why-section .cell.large-4 > [class*=why-section] {
+    border: none;
   }
 
   .services {
@@ -1215,7 +1224,7 @@ h2 {
     right: 20px;
   }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 639px) {
   .form form {
     width: 100%;
   }
