@@ -246,7 +246,7 @@ h2{
     &__text{
         max-width:600px; 
         // text-align:center;
-        &:first-of-type{
+        &:not(:last-of-type){
             margin-bottom:20px;
         }
     }

@@ -787,7 +787,7 @@ h2 {
 .story__text {
   max-width: 600px;
 }
-.story__text:first-of-type {
+.story__text:not(:last-of-type) {
   margin-bottom: 20px;
 }
 
