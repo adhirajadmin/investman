@@ -794,11 +794,14 @@ h2 {
 .founder {
   width: 300px;
   height: 350px;
-  background-image: url("../images/adhiraj-2.jpg");
+  background-color: #ecf5fa;
+  background-image: url("../images/adhiraj-3.png");
   background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   position: relative;
   border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.02);
   overflow: hidden;
 }
 .founder__name {
