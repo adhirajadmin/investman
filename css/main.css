@@ -607,8 +607,8 @@ h2 {
   display: none;
 }
 .nav .logo {
-  margin-top: 17px;
-  height: 46px;
+  margin-top: 20px;
+  height: 40px;
 }
 .nav__list-container {
   display: flex;
@@ -720,11 +720,19 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
+  font-size: 40px;
+  max-height: 336px;
 }
-.why-section__logo-container img {
-  width: 200px;
+
+.why-section__logo-container-text {
+  line-height: 80%;
 }
+
+.number {
+  font-weight: bold;
+  font-size: 70px;
+}
+
 .why-section__text-container ul {
   padding: 0;
   margin: 0;
@@ -765,6 +773,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 .service__icon {
   display: block;
@@ -795,7 +804,7 @@ h2 {
   width: 300px;
   height: 350px;
   background-color: #ecf5fa;
-  background-image: url("../images/adhiraj-3.png");
+  background-image: url("../images/updated_images/updated_profile_pic.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -870,6 +879,65 @@ h2 {
   display: block;
   margin: auto;
   margin-bottom: 10px;
+}
+
+.great {
+  padding: 80px 0px;
+}
+
+.great_logo{
+  text-align: center;
+  margin:  1rem;
+}
+
+
+.great__title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.great_subtitle {
+  /* width: 100%;  */
+  text-align: center; 
+  border-bottom: 1px solid #000; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.great_subtitle span {
+  background:#fff; 
+  padding:0 10px;
+}
+
+.great_text{
+  text-align: center; 
+}
+
+.great_cell {
+  margin-bottom: 1rem;
+}
+
+.workplace {
+  padding: 80px 0px;
+  background-color: #ecf5fa;
+}
+
+.workplace__title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.workplace__block img {
+  height: 300px;
+  width: 500px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
 }
 
 .slick-arrow {
@@ -1248,5 +1316,12 @@ h2 {
   }
   .feedback__text {
     text-align: left;
+  }
+
+  .workplace__block img {
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    
   }
 }
