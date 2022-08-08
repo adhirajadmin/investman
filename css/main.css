@@ -789,6 +789,7 @@ h2 {
 
 .story {
   padding: 80px 0;
+  background-color: #ecf5fa;
 }
 .story__title {
   margin-bottom: 30px;
@@ -921,7 +922,6 @@ h2 {
 
 .workplace {
   padding: 80px 0px;
-  background-color: #ecf5fa;
 }
 
 .workplace__title{
