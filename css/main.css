@@ -1227,7 +1227,7 @@ h2 {
     padding: 40px 0;
   }
   .why-section__logo-container {
-    display: none;
+    display: block;
   }
   .why-section .cell.large-4 > [class*=why-section] {
     border: none;
